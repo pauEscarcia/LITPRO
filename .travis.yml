@@ -41,6 +41,7 @@ after_script:
   - git remote add origin git@github.com:pauEscarcia/LITPRO.git  
   - sudo chmod 600 .ssh/id_rsa
   - sudo chmod 600 .ssh/id_rsa.pub
+  - sudo chmod 600 .ssh/known_hosts
   - ls -a
   - ls -al .ssh
   - eval "$(ssh-agent -s)"
